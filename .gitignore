@@ -1,0 +1,14 @@
+# Security
+.env
+
+# Python Virtual Environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# OS Files
+.DS_Store
+
+# Streamlit config (optional, but good practice if you have local tweaks)
+.streamlit/
