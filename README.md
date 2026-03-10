@@ -7,7 +7,7 @@ An automated, LLM-driven data pipeline designed to cross-reference internal draf
 ---
 
 ## 🎯 Strategic Rationale
-As Mercury recently submitted an application for a national bank charter to the Office of the Comptroller of the Currency (OCC), there is a strong need for alignment of the company's policies with the federal government's requirements pertaining to BSA / AML Compliance, Liquidity & FUnds Management, Information Security, and Capital Adequacy amongst other areas. Despite this need, federal government documents comprise thousands of pages across different manuals, websites, and other reference sources which makes cross-referencing a highly manual process with a propensity for errors.
+As Mercury recently submitted an application for a national bank charter to the Office of the Comptroller of the Currency (OCC), there is a strong need for alignment of the company's policies with the federal government's requirements pertaining to BSA / AML Compliance, Liquidity & Funds Management, Information Security, and Capital Adequacy amongst other areas. Despite this need, federal government documents comprise thousands of pages across different manuals, websites, and other reference sources which makes cross-referencing a highly manual process with a propensity for errors.
 
 This system was designed to solve that bottleneck by transforming static government PDFs into structured JSON and pushing compliance gaps directly into the tools where Mercury employees already engage (Linear). This makes compliance an agile and continuous process rather than a black box expending valuable employee time.
 
