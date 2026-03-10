@@ -39,23 +39,26 @@ As a v1 Proof of Concept, this architecture makes several deliberate scoping tra
 
 ## 🚀 Local Installation & Setup
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone [https://github.com/yourusername/mercury-charter-readiness.git](https://github.com/yourusername/mercury-charter-readiness.git)
 cd mercury-charter-readiness
+```
 
-### 2. Set up the virtual environment
+2. Set up the virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
+```
 
-### 3. Create a .env file in the root directory and add your secure API keys:
+3. Create a .env file in the root directory and add your secure API keys:
 NOTION_TOKEN="ntn_your_notion_internal_integration_token"
 NOTION_POLICY_PAGE_ID="your_target_page_id"
 GEMINI_API_KEY="AIzaSy_your_google_ai_studio_key"
 LINEAR_API_KEY="lin_api_your_personal_api_key"
 
-### 4. Run the application
+4. Run the application
 ```bash
 python -m streamlit run dashboard.py
+```
